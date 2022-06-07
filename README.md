@@ -8,4 +8,9 @@ Only the single target attribute (e.g., eyeglasses, gender, expression, or musta
 The framework of our method. For a given face image, the personalized facial semantic field (PFSF) is built by inverting it into the latent space of GAN and retraining GAN together, which is colored blue. After the PFSF is built, the generator of GAN is fixed and a pretrained facial attribute classifier is used as supervision for searching disentangled non-line semantic direction in the PFSF. This individual non-linear walk aims to walk in the right semantic direction, making the given face image edited according to the semantic target (e.g., smiling). The editing process is colored in orange. Finally, the edited portrait is fused with the background of the original image.
 ![3.jpg](https://github.com/lcd21/PFSF/blob/main/Framework.jpg)
 
+Visual comparison between examples edited from InterFaceGAN and our method. InterFaceGAN removes the mustache and background from the top instance while adding eyeglasses, and adds eyeglasses to the bottom face during aging. In contrast, our method preserves other attributes and the background quite well.
+![3.jpg](https://github.com/lcd21/PFSF/blob/main/FigentangledExamples.jpg)
+
+
+
 
