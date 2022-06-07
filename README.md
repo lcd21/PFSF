@@ -11,6 +11,13 @@ The framework of our method. For a given face image, the personalized facial sem
 Visual comparison between examples edited from InterFaceGAN and our method. InterFaceGAN removes the mustache and background from the top instance while adding eyeglasses, and adds eyeglasses to the bottom face during aging. In contrast, our method preserves other attributes and the background quite well.
 ![3.jpg](https://github.com/lcd21/PFSF/blob/main/FigentangledExamples.jpg)
 
+Reconstructed examples of inversions from the universal facial semantic field (FSF) and personalized facial semantic fields (PFSF). It is obvious that reconstructions from PFSF (Ours) preserve more detailed characteristics and show more similarity to the original examples.
+![5.jpg](https://github.com/lcd21/PFSF/blob/main/figCompared-UFSF-PFSF.jpg)
+
+Visual comparison of  attributes editing results from different methods. From left to right, each column means:(2) GANSpace, (3) InterfaceGAN, (4) IALS , (5) 	Trans4edit, (6) Our method. Four facial semantic attributes (eyeglasses,smile, age and gender) are edited and listed from top to  bottom with two different instances for each attribute.  Notice that facial makeup and other details are well kept while adding eyeglasses and smiling only by our method. Other methods may added eyeglasses while aging except Trans4edit and ours.
+![7.jpg](https://github.com/lcd21/PFSF/blob/main/FigEditedExamplesComparisonwithBenchmark.jpg)
+
+
 
 
 
