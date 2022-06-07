@@ -1,2 +1,2 @@
 original images:  XXXX_original.ipg
-edited images: XXXX_Smile.ipg
+edited images: XXXX_Smiling.ipg ， XXXX_Eyeglasses.ipg ...
